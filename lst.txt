@@ -1,0 +1,20 @@
+00			E1			EQU			50			0			NULL		
+00						ORG			$4000			4000			NULL		
+4000			E2			EQU			15			0			NULL		
+4000						ABA			NULL			02			18_06		
+4002						ADCA			$15			02			99_15		
+4004						START			NULL			00			NULL		
+00						ADDD			#%110			03			C3_06		
+03						ADDD			@11			02			D3_09		
+05						ADDD			#$10			03			C3_10		
+08						DC.B			$10			01			10 		
+09			E3			DC.W			NULL			2			00 00		
+0b						BSZ			3			03			00 00 00		
+0e						FILL			2,4			04			02 02 02 02 		
+12						FCC			/HOLA/			04			48 4f 4c 41 		
+16						ORG			$4100			4100			NULL		
+4100						ASL			256			03			78_01_00		
+4103						ASR			$100			03			77_01_00		
+4106						BCS			#30			02			25_1e		
+4108						BGND			NULL			01			00		
+4109			E1			END			NULL			NULL			NULL		

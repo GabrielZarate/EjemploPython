@@ -1,0 +1,131 @@
+ABA     NULL                    INH         18_06               OO
+ABX     NULL                    IDX         1A_E5               PP^1
+ABY     NULL                    IDX         19_ED               PP^1
+ADCA    #opr8i                  IMM         89_ii               P
+ADCA    opr8a                   DIR         99_dd               rfP
+ADCA    opr16a                  EXT        B9_hh_ll            rOP
+ADCA    oprx0_xysp              IDX         A9_xb               rfP
+ADCA    oprx9,xysp              IDX1        A9_xb_ff            rPO
+ADCA    oprx16,xysp             IDX2        A9_xb_ee_ff         frPP
+ADCA    [D,xysp]                [D,IDX]     A9_xb               fIfrfP
+ADCA    [oprx16,xysp]           [IDX2]      A9_xb_ee_ff         fIPrfP
+ADCB    #opr8i                  IMM         C9_ii               P
+ADCB    opr8a                   DIR         D9_dd               rfP
+ADCB    opr16a                  EXT         F9_hh_ll            rOP
+ADCB    oprx0_xysp              IDX         E9_xb               rfP
+ADCB    oprx9,xysp              IDX1        E9_xb_ff            rPO
+ADCB    oprx16,xysp             IDX2        E9_xb_ee_ff         frPP
+ADCB    [D,xysp]                [D,IDX]     E9_xb               fIfrfP
+ADCB    [oprx16,xysp]           [IDX2]      E9_xb_ee_ff         fIPrfP
+ADDA    #opr8i                  IMM         8B_ii               P
+ADDA    opr8a                   DIR         9B_dd               rfP
+ADDA    opr16a                  EXT         BB_hh_ll            rOP
+ADDA    oprx0_xysp              IDX         AB_xb               rfP
+ADDA    oprx9,xysp              IDX1        AB_xb_ff            rPO
+ADDA    oprx16,xysp             IDX2        AB_xb_ee_ff         frPP
+ADDA    [D,xysp]                [D,IDX]     AB_xb               fIfrfP
+ADDA    [oprx16,xysp            [IDX2]      AB_xb_ee_ff         fIPrfP
+ADDB    #opr8i                  IMM         CB_ii               P
+ADDB    opr8a                   DIR         DB_dd               rfP
+ADDB    opr16a                  EXT         FB_hh_ll            rOP
+ADDB    oprx0_xysp              IDX         EB_xb               rfP
+ADDB    oprx9,xysp              IDX1        EB_xb_ff            rPO
+ADDB    oprx16,xysp             IDX2        EB_xb_ee_ff         frPP
+ADDB    [D,xysp]                [D,IDX]     EB_xb               fIfrfP
+ADDB    [oprx16,xysp]           [IDX2]      EB_xb_ee_ff         fIPrfP
+ADDD    #opr16i                 IMM         C3_jj_kk            OP
+ADDD    opr8a                   DIR         D3_dd               RfP
+ADDD    opr16a                  EXT         F3_hh_ll            ROP
+ADDD    oprx0_xysp              IDX         E3_xb               RfP
+ADDD    oprx9,xysp              IDX1        E3_xb_ff            RPO
+ADDD    oprx16,xysp             IDX2        E3_xb_ee_ff         fRPP
+ADDD    [D,xysp]                [D,IDX]     E3_xb               fIfRfP
+ADDD    [oprx16,xysp]           [IDX2]      E3_xb_ee_ff         fIPRfP
+ANDA    #opr8i                  IMM         84_ii               P
+ANDA    opr8a                   DIR         94_dd               rfP
+ANDA    opr16a                  EXT         B4_hh_ll            rOP
+ANDA    oprx0_xysp              IDX         A4_xb               rfP
+ANDA    oprx9,xysp              IDX1        A4_xb_ff            rPO
+ANDA    oprx16,xysp             IDX2        A4_xb_ee_ff         frPP
+ANDA    [D,xysp]                [D,IDX]     A4_xb               fIfrfP
+ANDA    [oprx16,xysp]           [IDX2]      A4_xb_ee_ff         fIPrfP
+ANDB    #opr8i                  IMM         C4_ii               P
+ANDB    opr8a                   DIR         D4_dd               rfP
+ANDB    opr16a                  EXT         F4_hh_ll            rOP
+ANDB    oprx0_xysp              IDX         E4_xb               rfP
+ANDB    oprx9,xysp              IDX1        E4_xb_ff            rPO
+ANDB    oprx16,xysp             IDX2        E4_xb_ee_ff         frPP
+ANDB    [D,xysp]                [D,IDX]     E4_xb               fIfrfP
+ANDB    [oprx16,xysp]           [IDX2]      E4_xb_ee_ff         fIPrfP
+ANDCC   #opr8i                  IMM         10_ii               P
+ASL     opr16a                  EXT         78_hh_ll            rOPw
+ASL     oprx0_xysp              IDX         68_xb               rPw
+ASL     oprx9,xysp              IDX1        68_xb_ff            rPOw
+ASL     oprx16,xysp             IDX2        68_xb_ee_ff         frPPw
+ASL     [D,xysp]                [D,IDX]     68_xb               fIfrPw
+ASL     [oprx16,xysp]           [IDX2]      68_xb_ee_ff         fIPrPw
+ASLA    NULL                    INH         48                  O
+ASLB    NULL                    INH         58                  O
+ASLD    NULL                    INH         59                  O
+ASR     opr16a                  EXT         77_hh_ll            rOPw
+ASR     oprx0_xysp              IDX         67_xb               rPw
+ASR     oprx9,xysp              IDX1        67_xb_ff            rPOw
+ASR     oprx16,xysp             IDX2        67_xb_ee_ff         frPPw
+ASR     [D,xysp]                [D,IDX]     67_xb               fIfrPw
+ASR     [oprx16,xysp]           [IDX2]      67_xb_ee_ff         fIPrPw
+ASRA    NULL                    INH         47                  O
+ASRB    NULL                    INH         57                  O
+BCC     rel8                    REL         24_rr               PPP/P^1
+BCLR    opr8a, msk8             DIR         4D_dd_mm            rPOw
+BCLR    opr16a, msk8            EXT         1D_hh_ll_mm         rPPw
+BCLR    oprx0_xysp, msk8        IDX         0D_xb_mm            rPOw
+BCLR    oprx9,xysp, msk8        IDX1        0D_xb_ff_mm         rPwP
+BCLR    oprx16,xysp, msk8       IDX2        0D_xb_ee_ff_mm      frPwOP
+BCS     rel8                    REL         25_rr               PPP/P^1
+BEQ     rel8                    REL         27_rr               PPP/P^1
+BGE     rel8                    REL         2C_rr               PPP/P^1
+BGND    NULL                    INH         00                  VfPPP
+BGT     rel8                    REL         2E_rr               PPP/P^1
+BHI     rel8                    REL         22_rr               PPP/P^1
+BHS     rel8                    REL         22_rr               PPP/P^1
+BITA    #opr8i                  IMM         85_ii               P
+BITA    opr8a                   DIR         95_dd               rfP
+BITA    opr16a                  EXT         B5_hh_ll            rOP
+BITA    oprx0_xysp              IDX         A5_xb               rfP
+BITA    oprx9,xysp              IDX1        A5_xb_ff            rPO
+BITA    oprx16,xysp             IDX2        A5_xb_ee_ff         frPP
+BITA    [D,xysp]                [D,IDX]     A5_xb               fIfrfP
+BITA    [oprx16,xysp]           [IDX2]      A5_xb_ee_ff         fIPrfP
+BLE     rel8                    REL         2F_rr               PPP/P^1
+BLO     rel8                    REL         25_rr               PPP/P^1
+BLS     rel8                    REL         23_rr               PPP/P^1
+BLT     rel8                    REL         2D_rr               PPP/P^1
+BMI     rel8                    REL         2B_rr               PPP/P^1
+BNE     rel8                    REL         26_rr               PPP/P^1
+BPL     rel8                    REL         2A_rr               PPP/P^1
+BRA     rel8                    REL         20_rr               PPP
+BRCLR   opr8a, msk8, rel8       DIR         4E_dd_mm_rr         rPPP
+BRCLR   opr16a, msk8, rel8      EXT         1E_hh_ll_mm_rr      rfPPP
+BRCLR   oprx0_xysp, msk8, rel8  IDX         0E_xb_mm_rr         rPPP
+BRCLR   oprx9,xysp, msk8, rel8  IDX1        0E_xb_ff_mm_rr      rffPPP
+BRCLR   oprx16,xysp, msk8, rel8 IDX2        0E_xb_ee_ff_mm_rr   frPffPPP
+BSET    opr8, msk8              DIR         4E_dd_mm_rr         rPPP
+BSET    opr16a, msk8            EXT         1E_hh_ll_mm_rr      rfPPP
+BSET    oprx0_xysp, msk8        IDX         0E_xb_mm_rr         rPPP
+BSET    oprx9,xysp, msk8        IDX1        0E_xb_ff_mm_rr      rffPPP
+BSET    oprx16,xysp, msk8       IDX2        0E_xb_ee_ff_mm_rr   frPffPPP
+BSET    opr8, msk8              DIR         4C_dd_mm            rPOw
+BSET    opr16a, msk8            EXT         1C_hh_ll_mm         rPPw
+BSET    oprx0_xysp, msk8        IDX         0C_xb_mm            rPOw
+BSET    oprx9,xysp, msk8        IDX1        0C_xb_ff_mm         rPwP
+BSET    oprx16,xysp, msk8       IDX2        0C_xb_ee_ff_mm      frPwOP
+BSR     rel8                    REL         07_rr               PPPS
+BVC     rel8                    REL         28_rr               PPP/P^1
+BVS     rel8                    REL         29 rr               PPP/P^1
+CALL    opr16a, page            EXT         4A_hh_ll_pg         gnfSsPPP
+CALL    oprx0_xysp, page        IDX         4B_xb_pg            gnfSsPPP
+CALL    oprx9,xysp, page        IDX1        4B_xb_ff_pg         gnfSsPPP
+CALL    oprx16,xysp, page       IDX2        4B_xb_ee_ff_pg      fgnfSsPPP
+CALL    [D,xysp]                [D,IDX]     4B_xb               fIignSsPPP
+CALL    [oprx16, xysp]          [IDX2]      4B_xb_ee_ff         fIignSsPPP
+CBA     NULL                    INH         18_17               OO
